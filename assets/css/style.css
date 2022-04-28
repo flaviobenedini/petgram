@@ -68,6 +68,10 @@ body {
   padding: 0;
 }
 
+.items-centered {
+    align-items: center;
+}
+
 .flex-container.flex-container--col {
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -82,11 +86,23 @@ body {
     justify-content: center;
 }
 
-.flex-container.flex-container--column.div_form {
-    border: 1px solid var(--color-dark);
+.flex-container.flex-container--row.flex-container--evenly {
+    justify-content: space-evenly;
 }
 
-.flex-container.flex-container--column.div_form.input_login {
+.flex-container.flex-container--col.div_form {
+    border: 1px solid var(--color-dark);
+    padding: 0 var(--spacing-size-double);
+    margin: 10px 0;
+}
+
+.flex-container.flex-container--col.div_cadastrese {
+    border: 1px solid var(--color-dark);
+    padding: 0 var(--spacing-size-double) 0;
+    margin: 10px 0;
+}
+
+.flex-container.flex-container--col.div_form.input_login {
     flex: 1 0 100%;
 }
 
