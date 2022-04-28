@@ -1,0 +1,52 @@
+/* RESET */
+
+:root {
+    /* Padrão: Cores*/
+    --color-lighter: #eae8e0;
+    --color-light: #fff5d8;
+    --color-primary: #ffd91c;
+    --color-secondary: #eade81;
+    --color-dark: #36373c;
+    --color-darker: #24272f;
+    /* Padrão: Espaçamentos */
+    --spacing-size-default: 20px;
+    --spacing-size-quarter: calc(.25 * var(--spacing-size-default));
+    --spacing-size-third: calc(.33 * var(--spacing-size-default));
+    --spacing-size-half: calc(.5 * var(--spacing-size-default));
+    --spacing-size-double: calc(2 * var(--spacing-size-default));
+    /* Padrão: Fontes - Tamanhos */
+    --font-size-default: 20px;
+    --font-size-xxs: calc(.7 * var(--font-size-default));
+    --font-size-xs: calc(.8 * var(--font-size-default));
+    --font-size-sm: calc(.9 * var(--font-size-default));
+    --font-size-md: calc(1 * var(--font-size-default));
+    --font-size-lg: calc(1.2 * var(--font-size-default));
+    --font-size-xl: calc(1.6 * var(--font-size-default));
+    --font-size-xxl: calc(1.8 * var(--font-size-default));
+    /* Padrão: Fontes - Tamanhos Entrelinha */
+    --line-height-default: calc(1.5 * var(--font-size-default));
+    --line-height-xxs: calc(1.5 * var(--font-size-xxs));
+    --line-height-xs: calc(1.5 * var(--font-size-xs));
+    --line-height-sm: calc(1.5 * var(--font-size-sm));
+    --line-height-md: calc(1.5 var(--font-size-md));
+    --line-height-lg: calc(1.5 * var(--font-size-lg));
+    --line-height-xl: calc(1.5 * var(--font-size-xl));
+    --line-height-xxl: calc(1.5 * var(--font-size-xxl));
+    /* Padrão: Fontes - Família*/
+    --font-family-text: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    /* Padrão: Border Radius */
+    --border-radius-default: calc(var(--spacing-size-default)/2.5);
+    --border-radius-circle: 50%;
+  }
+  
+  /* Zerando espaçamentos e setando cor e fonte */  
+* {
+    box-sizing: border-box;
+    color: var(--color-lighter);
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-default);
+    line-height: var(--line-height-default);
+    margin: 0;
+    padding: 0;
+  }
+
