@@ -9,12 +9,12 @@
 </head>
 <body>
     <main>
-        <article>
-            <div></div>
-            <div>
-                <form action="/" method="POST">
-                    <input type="text" name="user" id="user">
-                    <input type="password" name="senha" id="senha">
+        <article class="flex-container flex-container--row">
+            <div class="flex-container flex-container--column"></div>
+            <div class="flex-container flex-container--column">
+                <form class="flex-container flex-container--column form_login" action="./" method="POST">
+                    <input type="text" name="user" id="user" placeholder="Nome de Usuário ou e-mail">
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
                     <button class="buttom_signin">Entrar</button>
                 </form>
             </div>

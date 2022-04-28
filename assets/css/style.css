@@ -50,6 +50,22 @@
     padding: 0;
   }
 
+.flex-container {
+  align-items: stretch;
+  display: flex;
+  padding: 0;
+}
+
+.flex-container.flex-container--col {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+.flex-container.flex-container--row {
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .buttom_signin {
     background-color: var(--color-light);
     color: #fff;
@@ -57,3 +73,24 @@
     border-radius: 28px;
     border: 1 solid var(--color-lighter)
 }
+
+.form_login {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: var(--spacing-size-default);
+}
+input,
+button {
+    margin: var(--spacing-size-half);
+}
+
+input {
+    font-size: var(--font-size-xxs);
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
