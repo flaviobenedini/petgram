@@ -2,12 +2,12 @@
 
 :root {
     /* Padrão: Cores*/
-    --color-lighter: #eae8e0;
-    --color-light: #fff5d8;
-    --color-primary: #ffd91c;
-    --color-secondary: #eade81;
-    --color-dark: #36373c;
-    --color-darker: #24272f;
+    --color-lighter: #cae8fd;
+    --color-light: #7dc6fa;
+    --color-primary: #5b5b5b;
+    --color-secondary: #fff;
+    --color-dark: #3855be;
+    --color-darker: #2c4292;
     /* Padrão: Espaçamentos */
     --spacing-size-default: 20px;
     --spacing-size-quarter: calc(.25 * var(--spacing-size-default));
