@@ -42,7 +42,7 @@
   /* Zerando espaçamentos e setando cor e fonte */  
 * {
     box-sizing: border-box;
-    color: var(--color-lighter);
+    /* color: var(--color-lighter); */
     font-family: var(--font-family-text);
     font-size: var(--font-size-default);
     line-height: var(--line-height-default);
@@ -50,3 +50,10 @@
     padding: 0;
   }
 
+.buttom_signin {
+    background-color: var(--color-light);
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 28px;
+    border: 1 solid var(--color-lighter)
+}
