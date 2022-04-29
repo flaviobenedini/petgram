@@ -111,7 +111,7 @@ body {
 }
 
 .img_lateral {
-  background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+  padding: 0 var(--spacing-size-double);
 }
   
 .buttom_signin {
@@ -138,7 +138,12 @@ body {
 }
 
 .cadastrese {
+    font-size: var(--font-size-sm);
     text-decoration: none;
+}
+
+.text_cad {
+    font-size: var(--font-size-sm);
 }
 
 .form_login {
