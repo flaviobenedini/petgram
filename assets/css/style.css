@@ -6,6 +6,7 @@
     --color-light: #7dc6fa;
     --color-primary: #5b5b5b;
     --color-secondary: #fff;
+    --color-tertiary: #fafafa;
     --color-dark: #3855be;
     --color-darker: #2c4292;
     /* Padrão: Espaçamentos */
@@ -52,7 +53,7 @@
 
 body {
     align-items: stretch;
-    background-color: var(--color-secondary);
+    background-color: var(--color-tertiary);
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -91,11 +92,13 @@ body {
 }
 
 .div_form {
+    background-color: var(--color-secondary);
     border: 1px solid var(--color-dark);
     margin: var(--spacing-size-half) 0;
 }
 
 .div_cadastrese {
+    background-color: var(--color-secondary);
     border: 1px solid var(--color-dark);
     padding: 0 var(--spacing-size-double) 0;
     margin: var(--spacing-size-half) 0;
@@ -142,6 +145,14 @@ body {
     display: flex;
     flex-flow: column nowrap;
 }
+
+.input_login {
+    background-color: var(--color-tertiary);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 2px 10px;
+}
+
 input,
 button {
     margin: var(--spacing-size-half);
