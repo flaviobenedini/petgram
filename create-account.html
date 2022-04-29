@@ -10,20 +10,29 @@
 <body>
     <main>
         <article class="flex-container flex-container--row flex-container--center">
-            <div class="flex-container flex-container--col div_form">
-                <img class="logo" src="assets/images/logo.png" alt="logotipo">
-                <div class="flex-container flex-container--row flex-container--center div-texto-cadastrar">
-                    <p class="texto-cadastrar">Cadastre-se para ver fotos e vídeos dos outros pets.</p>
+            <div class="flex-container flex-container--col">
+                <div class="flex-container flex-container--col div_form">
+                    <img class="logo" src="assets/images/logo.png" alt="logotipo">
+                    <div class="div-texto-cadastrar">
+                        <p class="texto-cadastrar">Cadastre-se para ver fotos dos outros pets.</p>
+                    </div>
+                    <form class="flex-container flex-container--col form_login" action="#" method="POST">
+                        <input class="input_login" type="email" name="email" id="email" placeholder="E-mail">
+                        <input class="input_login" type="text" name="nome" id="nome" placeholder="Nome do Pet">
+                        <input class="input_login" type="text" name="user" id="user" placeholder="Nome de Usuário">
+                        <input class="input_login" type="password" name="senha" id="senha" placeholder="Senha">
+                        <button class="buttom_signin">Criar</button>
+                    </form>
+                    <div class="div-texto-snapin">
+                        <p class="texto-snapin">Ao se cadastrar, você concorda com nossos <strong>Termos</strong>, <strong>Política de Dados</strong> e <strong>Política de Cookies</strong>.</p>
+                    </div>
                 </div>
-                <form class="flex-container flex-container--col form_login" action="#" method="POST">
-                    <input class="input_login" type="email" name="email" id="email" placeholder="E-mail">
-                    <input class="input_login" type="text" name="nome" id="nome" placeholder="Nome do Pet">
-                    <input class="input_login" type="text" name="user" id="user" placeholder="Nome de Usuário">
-                    <input class="input_login" type="password" name="senha" id="senha" placeholder="Senha">
-                    <button class="buttom_signin">Criar</button>
-                </form>
+                <div class="flex-container flex-container--col div_cadastrese items-centered">
+                    <p class="text_cad">Já tem uma conta?</p>
+                    <a class="cadastrese" href="login.html">Conecte-se</a>
+                </div>
             </div>
-        </article>
+    </article>
     </main>
     <footer class="flex-container flex-container--row flex-container--center">
         <p class="copyright">&copy 2022 Projeto Integrador - tn02</p>

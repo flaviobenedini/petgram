@@ -190,7 +190,10 @@ footer{
 }
 
 .div-texto-cadastrar {
-    width: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
     margin: 0 0 var(--spacing-size-double) 0;
 }
 
@@ -198,4 +201,29 @@ footer{
     color: var(--color-primary);
     font-size: var(--font-size-md);
     text-align: center;
+    width: 250px;
+    height: auto;
+}
+.div-texto-snapin {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    margin: var(--spacing-size-double) 0 var(--spacing-size-default) 0;
+
+}
+
+.texto-snapin {
+    color: var(--color-primary);
+    font-size: var(--font-size-xxs);
+    line-height: var(--line-height-xxs);
+    text-align: center;
+    width: 250px;
+}
+
+.texto-snapin strong{
+    color: var(--color-primary);
+    font-size: var(--font-size-xxs);
+    line-height: var(--line-height-xxs);
+    font-weight: bold;
 }
