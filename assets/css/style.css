@@ -156,6 +156,7 @@ body {
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     padding: 2px 10px;
+    outline: none;
 }
 
 input,
