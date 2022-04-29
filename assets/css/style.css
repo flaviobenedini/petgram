@@ -107,6 +107,10 @@ body {
     flex: 1 0 100%;
 }
 
+.logo {
+    margin: var(--spacing-size-default);
+}
+
 
 
 .img_lateral {
@@ -124,7 +128,6 @@ body {
 .form_login {
     display: flex;
     flex-flow: column nowrap;
-    padding: var(--spacing-size-default);
 }
 input,
 button {
