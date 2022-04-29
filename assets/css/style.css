@@ -134,6 +134,9 @@ body {
     top:1px;
 }
 
+.cadastrese {
+    text-decoration: none;
+}
 
 .form_login {
     display: flex;
