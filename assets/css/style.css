@@ -66,7 +66,6 @@ body {
 .flex-container {
   align-items: stretch;
   display: flex;
-  padding: 0;
 }
 
 .items-centered {
@@ -93,25 +92,24 @@ body {
 
 .div_form {
     border: 1px solid var(--color-dark);
-    padding: 0 var(--spacing-size-double);
-    margin: 10px 0;
+    margin: var(--spacing-size-half) 0;
 }
 
 .div_cadastrese {
     border: 1px solid var(--color-dark);
     padding: 0 var(--spacing-size-double) 0;
-    margin: 10px 0;
+    margin: var(--spacing-size-half) 0;
 }
 
-.input_login {
-    flex: 1 0 100%;
+.flex-container.flex-container--col.div_form .input_login {
+    width: 100%;
 }
 
 .logo {
-    margin: var(--spacing-size-default);
+    margin: var(--spacing-size-default) var(--spacing-size-double);
+    width: 250px;
+    height: auto;
 }
-
-
 
 .img_lateral {
   background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
