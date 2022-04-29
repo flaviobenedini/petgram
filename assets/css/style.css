@@ -83,7 +83,11 @@ body {
     justify-content: space-between;
   }
 
-.flex-container--center {
+  .flex-container--center {
+    justify-content: center;
+}
+
+.flex-container.flex-container--row.flex-container--center {
     justify-content: center;
 }
 
@@ -144,6 +148,7 @@ body {
 
 .text_cad {
     font-size: var(--font-size-sm);
+    color: var(--color-primary);
 }
 
 .form_login {
@@ -166,6 +171,7 @@ button {
 
 input {
     font-size: var(--font-size-xxs);
+    color: var(--color-primary);
 }
 
 article {
@@ -174,3 +180,11 @@ article {
     justify-content: center;
 }
 
+footer{ 
+    margin: var(--spacing-size-double) 0;
+}
+.copyright {
+    font-size: var(--font-size-xxs);
+    color: var(--color-primary);
+
+}
