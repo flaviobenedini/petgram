@@ -112,12 +112,28 @@ body {
 }
   
 .buttom_signin {
+/* 
     background-color: var(--color-light);
     color: #fff;
     padding: 0 10px;
     border-radius: 28px;
     border: 1 solid var(--color-lighter)
+     */
+
+    background-color: var(--color-light);
+    border-radius:28px;
+    border:1px solid var(--color-lighter);
+    cursor:pointer;
+    color:#ffffff;
 }
+.buttom_signin:hover {
+    background-color: var(--color-lighter);
+}
+.buttom_signin:active {
+    position:relative;
+    top:1px;
+}
+
 
 .form_login {
     display: flex;
