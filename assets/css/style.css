@@ -114,6 +114,7 @@ body {
     height: auto;
 }
 
+
 .img_lateral {
   padding: 0 var(--spacing-size-double);
 }
@@ -226,4 +227,35 @@ footer{
     font-size: var(--font-size-xxs);
     line-height: var(--line-height-xxs);
     font-weight: bold;
+}
+
+.nav-top {
+    background-color: white;
+    border-top: solid #dbdbdb;
+    border-bottom: solid #dbdbdb;
+}
+
+
+.logo-feed {
+    max-width: 130px;
+    max-height: 80px;
+}
+.form-control {
+    border-radius: .20rem;
+    padding: 0% ;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+}
+.div-style{
+    width: 30% ;
+}
+.img-nav {
+    border-radius: 30%;
+    max-width: 30px;
+    max-height: 25px;
+}
+.icons {
+    padding: 3%;
+    font-size: 25px;
 }
