@@ -291,11 +291,13 @@ header > .center{
     color: black;
     opacity: 0.1;
     margin-right: 10px;
+    display: inline-block;
 }
 .notifications-icons .img-miniature{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-rep;
+    display: inline-block;
 }
