@@ -13,6 +13,11 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+img.icon {
+    width: 25px;
+    height: 25px;
+}
 .logo-header img{
     max-width: 180px;    
 }
