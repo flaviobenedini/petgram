@@ -114,6 +114,7 @@ body {
     height: auto;
 }
 
+
 .img_lateral {
   padding: 0 var(--spacing-size-double);
 }
@@ -227,3 +228,4 @@ footer{
     line-height: var(--line-height-xxs);
     font-weight: bold;
 }
+    
