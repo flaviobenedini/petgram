@@ -15,18 +15,13 @@
 </head>
 
 <body>
-    <header class="flex-container flex-container--row around">
-        <div>
-            <a href="feed.html" target="blank"><img src="assets/images/logo.png">
-            </a>
+    <header class="flex-container flex-container--row around items-centered">
+        <div class="imagemLogo">
+            <a href="feed.html"><img src="assets/images/logo.png"> </a>
         </div>
-        <div class="flex-container flex-container--row around lex-container--center">
-            <form class="relative" action="#">
-                  <input class="campoPesquisa" type="text" name="txtsearch" placeholder="Buscar">
-                  <div class="lupa">
-                      <button class="botaoPesquisa" type="submit"></button>
-                  </div>
-            </form>
+        <div class="flex-container flex-container--row items-centered pesquisa" id="divPesquisa">
+                  <input id="inputPesquisa" class="campoPesquisa" type="text" name="txtsearch" placeholder="Buscar">
+                  <img id="imgPesquisa" src="assets/icons/buscar_grey.png" alt="">
           </div>
         <nav class="icones-link flex-container flex-container--row arround items-centered">
             <a href="#"><img class="icon" src="assets/icons/house-icon.png" alt="home" ></a>
@@ -245,5 +240,18 @@
         <p class="copyright">&copy 2022 Projeto Integrador - tn02</p>
     </footer>
 </body>
+
+<script>
+    const input = document.getElementById('inputPesquisa')
+    const search_box = document.getElementById('divPesquisa')
+
+    input.addEventListener('focus', () => {
+            search_box.classList.add("bordaPesquisa")
+    });
+
+    input.addEventListener('focusout', () => {
+        search_box.classList.remove("bordaPesquisa")
+    })
+</script>
 
 </html>
