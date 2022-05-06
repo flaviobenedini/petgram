@@ -71,7 +71,7 @@ img.icon {
 
 article.feed {
     width: 300px;
-    height: 350px;
+    height: 400px;
     background-color: rgb(172, 210, 210);
     margin: 20px 0;
     padding: 10px;
@@ -292,6 +292,17 @@ footer{
 
 .relative {
     position: relative;
+}
+
+.feedHeader p{
+    color: var(--color-primary);
+    font-size: var(--font-size-xxs);
+}
+
+.feedLegenda p{
+    color: var(--color-primary);
+    font-size: var(--font-size-xs);
+    line-height: var(--line-height-xxs);
 }
 
 .feedFooter p{
