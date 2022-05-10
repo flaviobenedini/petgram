@@ -4,7 +4,7 @@
 
 const controller = {
     index: (req, res) => res.render('index'),
-
+    minhaconta: (req, res) => res.render('minhaconta'),
 
 }
 
