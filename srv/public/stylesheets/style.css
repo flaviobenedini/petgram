@@ -109,7 +109,7 @@ div.imagemLogo {
     height: 50px;
 }
 
-.bordaPesquisa {
+#divPesquisa:focus-within {
     border: 1px solid var(--color-primary);
 }
   
