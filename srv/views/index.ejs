@@ -1,6 +1,23 @@
 <%- include('partials/header.ejs') %>
- <!-- Aqui vem o conteudo de cada página -->
 
+<main class="flex-container flex-container--row around">
+    <% for (let i = 0; i < 40; i++) { %>
+    
+    <article class="feed flex-container flex-container--col around">
+        <div class="feedHeader">
+            <p>usuario</p>
+        </div>
+        <img src="images/img-padrao.jpg" alt="" width="280px" height="280px">
+        <div class="feedLegenda">
+            <p>Coloque aqui a legenda da sua foto, com até 70 caracteres</p>
+        </div>
+        <div class="feedFooter flex-container flex-container--row">
+            <p>804 likes</p>
+            <p>3 comentários</p>
+        </div>
+    </article>
 
-<!-- O conteúdo termina aqui. -->
+    <% } %>
+</main>
+
 <%- include('partials/footer.ejs') %>
