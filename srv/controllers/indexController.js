@@ -4,10 +4,14 @@
 
 const controller = {
     index: (req, res) => res.render('index'),
+<<<<<<< HEAD
     termos: (req, res) => res.render('termos-de-uso'),
     login: (req, res) => res.render('login'),
 
 
+=======
+    minhaConta: (req, res) => res.render('minhaconta')
+>>>>>>> feature/feature/007-minha-conta-front
 }
 
 module.exports = controller
