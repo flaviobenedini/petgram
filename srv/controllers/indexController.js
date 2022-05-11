@@ -3,7 +3,8 @@
 
 
 const controller = {
-    index: (req, res) => res.render('index')
+    index: (req, res) => res.render('index'),
+    minhaConta: (req, res) => res.render('minhaconta')
 }
 
 module.exports = controller
