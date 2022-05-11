@@ -5,5 +5,7 @@ const controller = require('../controllers/indexController')
 
 router.get('/', controller.index);
 router.get('/termos-de-uso', controller.termos);
+router.get('/login', controller.login);
+
 
 module.exports = router;
