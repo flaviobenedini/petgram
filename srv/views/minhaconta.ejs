@@ -6,8 +6,20 @@
 <a href="#">Alterar foto do Perfil</a>
 <fieldset>
     <label for="nome">Nome:</label>
-    <input type="text" required name="name" id="nome" placeholder="Nome Usuário">
+    <input type="text" required name="name" id="nome" placeholder="Nome"> 
     <a href="#">Alterar Nome</a>
+    <p></p>  
+    <label for="nome">Nome de usuário:</label>
+    <input type="text" required name="name" id="nome" placeholder="Nome Usuário">
+    <p>Na maioria dos casos, você poderá alterar seu nome de usuário novamente para ******* por mais 14 dias.</p>
+    <p>Biografia</p><textarea name="message" id="msg" cols="20" rows="3"></textarea>
+    <p> <b>Informações pessoais</b>
+       <p> Forneça suas informações pessoais. Elas não farão parte do seu perfil público.</p>
+       <label for="email">Email:</label>
+       <input type="email" id="email" placeholder="email@email.com">
+       <label for="phone">Telefone:*</label>
+       <input type="tel" requirde name="phone" id="phone" placeholder="+55110000-0000">
+       <a href="#">Desativar minha conta temporariamente</a>
 </main>
 
 <%- include('partials/footer.ejs') %>
