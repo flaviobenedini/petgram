@@ -1,30 +1,30 @@
 <%- include('partials/header.ejs') %>
 
 <main>
-
-<fieldset>
-    <a href="#"><img class="icon" src="images/icons/bulldog.png" class="img-miniature"></a>
-    <a href="#">Alterar Avatar </a>
+    <fieldset>
+        <a href="#"><img class="icon" src="images/icons/bulldog.png" class="img-miniature"></a>
+        <a href="#">Alterar Avatar </a>
     <p>Nome de Usuário</p>
-    <label for="nome">Nome:</label>
-    <input type="text" required name="name" id="nome" placeholder="Nome"> 
-    <a href="#">Alterar Nome</a>
+        <label for="nome">Nome:</label>
+        <input type="text" required name="name" id="nome" placeholder="Nome"> 
+        <a href="#">Alterar Nome</a>
     <p></p>
-    <label for="senha">Senha Antiga:</label>
-     <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
+        <label for="senha">Senha Antiga:</label>
+        <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
      <p></p>
-     <label for="senha">Nova senha:</label>
-     <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
-     <small>No mínimo 6 e no máximo 8 caracteres</small>
+        <label for="senha">Nova senha:</label>
+         <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
+         <small>No mínimo 6 e no máximo 8 caracteres</small>
      <p></p>
-     <label for="senha">Confirmar nova senha:</label>
-     <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
-    <small>No mínimo 6 e no máximo 8 caracteres</small>
+        <label for="senha">Confirmar nova senha:</label>
+         <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
+        <small>No mínimo 6 e no máximo 8 caracteres</small>
     <p></p>  
-    <label for="nome">Nome de usuário:</label>
-    <input type="text" required name="name" id="nome" placeholder="Nome Usuário">
+        <label for="nome">Nome de usuário:</label>
+         <input type="text" required name="name" id="nome" placeholder="Nome Usuário">
     <p>Na maioria dos casos, você poderá alterar seu nome de usuário novamente para ******* por mais 14 dias.</p>
-    <p>Biografia</p><textarea name="message" id="msg" cols="20" rows="3"></textarea>
+    <p>Biografia</p>
+        <textarea name="message" id="msg" cols="20" rows="3"></textarea>
     <p> <b>Informações pessoais</b>
        <p> Forneça suas informações pessoais. Elas não farão parte do seu perfil público.</p>
        <label for="email">Email:</label>
@@ -32,6 +32,7 @@
        <label for="phone">Telefone:*</label>
        <input type="tel" requirde name="phone" id="phone" placeholder="+55110000-0000">
        <a href="#">Desativar minha conta temporariamente</a>
+    </fieldset>
 </main>
 
 <%- include('partials/footer.ejs') %>
