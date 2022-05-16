@@ -76,9 +76,20 @@ h1 {
 h2 {
     font-size: var(--font-size-lg);
 }
+
 p {
     padding: var(--spacing-size-half) 0;
     text-align: justify;
+}
+
+ul {
+    text-align: justify;
+    padding: var(--spacing-size-half) 0;
+    padding-left: var(--spacing-size-double);
+}
+
+li {
+    padding: var(--spacing-size-half) 0;
 }
 
 img.icon {
