@@ -229,7 +229,7 @@ article {
 }
 
 footer{ 
-    margin: var(--spacing-size-double) 0;
+    padding: var(--spacing-size-half) 0;
 }
 .copyright {
     font-size: var(--font-size-xxs);
