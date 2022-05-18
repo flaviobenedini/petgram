@@ -64,6 +64,10 @@ body {
     scroll-behavior: smooth;
 }
 
+main {
+    min-height: calc(100vh - 50);
+}
+
 img.icon {
     width: 25px;
     height: 25px;
