@@ -73,6 +73,11 @@ img.icon {
     height: 25px;
 }
 
+img.iconAdmin {
+    width: 15px;
+    height: 15px;
+}
+
 article.feed {
     border: 1px solid var(--color-primary);
     height: 400px;
@@ -230,6 +235,18 @@ h1.admin {
     padding: 2px 10px;
     outline: none;
 }    
+
+table {
+    border: 1px solid;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 95vw;
+}
+
+td, th {
+    border: 1px solid;
+}
 
 article {
     display: flex;
