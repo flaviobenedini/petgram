@@ -170,7 +170,8 @@ img#imgPesquisa {
 }    
 
 h1.admin {
-
+    font-size: var(--font-size-xl);
+    padding: var(--spacing-size-default) 0;
 }
 
 .logo {
