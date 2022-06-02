@@ -169,6 +169,10 @@ img#imgPesquisa {
     margin: var(--spacing-size-half) 0;
 }    
 
+h1.admin {
+
+}
+
 .logo {
     margin: var(--spacing-size-default) var(--spacing-size-double);
     width: 250px;
@@ -278,6 +282,22 @@ footer{
     font-size: var(--font-size-xxs);
     line-height: var(--line-height-xxs);
     font-weight: bold;
+}
+
+.links {
+    width: 80vw;
+}
+
+.links a {
+    color: black;
+    opacity: 0.6;
+    padding: var(--spacing-size-default) 0;
+    text-decoration: none;
+}
+
+.links a:hover {
+    opacity: 1;
+
 }
     
 .icones-link{
