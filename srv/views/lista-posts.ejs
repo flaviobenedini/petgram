@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs') %>
+
+<main class="flex-container flex-container--row around">
+    <%- include('partials/menu-admin.ejs') %>
+
+    <h1>Listagem de Postagens</h1>
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Usuário</th>
+                <th>Post</th>
+                <th>Ações</th>
+            </thead>
+    <% for (let i = 0; i < 40; i++) { %>
+            <tr>
+                <td>1</td>
+                <td>usuario1</td>
+                <td>34</td>
+                <td>icones de editar e remover</td>
+            </tr>
+            
+    <% } %>
+        </table>
+</main>
+
+<%- include('partials/footer.ejs') %>
