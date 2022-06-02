@@ -5,6 +5,6 @@ const controller = {}
 controller.index = (req, res) => res.render('admin')
 controller.postagens = (req, res) => res.render('lista-postagens')
 controller.usuarios = (req, res) => res.render('lista-usuarios')
-controller.comentarios = (req, res) => res.render('')
+controller.comentarios = (req, res) => res.render('lista-comentarios')
 
 module.exports = controller
