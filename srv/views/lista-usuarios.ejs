@@ -3,19 +3,17 @@
 <main class="flex-container flex-container--col items-centered">
     <%- include('partials/menu-admin.ejs') %>
 
-    <h1 class="admin">Listagem de Postagens</h1>
+    <h1 class="admin">Listagem de Usuários</h1>
         <table>
             <thead>
                 <th>ID</th>
                 <th>Usuário</th>
-                <th>Post</th>
                 <th>Ações</th>
             </thead>
     <% for (let i = 0; i < 40; i++) { %>
             <tr>
                 <td>1</td>
                 <td>usuario1</td>
-                <td>34</td>
                 <td>
                     <a href="#"><img class="iconAdmin" src="/images/icons/editar.png" alt="icone editar"></a>
                     <a href="#"><img class="iconAdmin" src="/images/icons/remover.png" alt="icone remover"></a>
