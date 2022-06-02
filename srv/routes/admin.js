@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const controller = require('../controllers/indexController')
+const controller = require('../controllers/adminController')
 
 router.get('/lista-postagens', controller.index);
 router.get('/lista-usuarios', controller.termos);
