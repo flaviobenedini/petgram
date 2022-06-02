@@ -241,11 +241,12 @@ table {
     border-spacing: 2px;
     border-collapse: collapse;
     text-align: center;
-    width: 95vw;
+    /* width: 95vw; */
 }
 
 td, th {
     border: 1px solid;
+    width: 200px;
 }
 
 article {
