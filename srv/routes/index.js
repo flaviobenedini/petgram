@@ -9,4 +9,6 @@ router.get('/login', controller.login);
 router.get('/create-account', controller.createAccount);
 router.get('/minhaconta', controller.minhaConta);
 
+router.get('/criar-post',controller.criarPost)
+
 module.exports = router;
