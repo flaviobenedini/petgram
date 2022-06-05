@@ -1,42 +1,44 @@
 <%- include('partials/header.ejs') %>
 
 <main class="flex-container flex-container--col items-centered"> 
-    <fieldset>
-        <legend>Perfil</legend>
-     <div class="flex-container flex-container--row items-centered">
-        <a href="#"><img class="icon" src="images/icons/bulldog.png" class="img-miniature"></a>
-        <a href="#">Alterar Avatar </a>
-    </div>
-    <div class="flex-container flex-container--row items-centered">
-        <label for="nome">Nome de Usuário:</label>
-        <input type="text" required name="name" id="nome" placeholder="Nome">
-    </div>
-    <div class="flex-container flex-container--row items-centered">
-        <p>Biografia</p>
-        <textarea name="message" id="msg" cols="20" rows="3"></textarea>
-    </div>
-    </fieldset>
-    <fieldset><legend>Segurança</legend>
-        <label for="senha">Alterar senha:</label>
-         <input type="password" name= "pass" id="senha" minlength="6" maxlength="8">
-         <small>No mínimo 6 e no máximo 8 caracteres</small>
-    
-        <label for="senha">Confirmar nova senha:</label>
-         <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
-        <small>No mínimo 6 e no máximo 8 caracteres</small>
-    </fieldset> 
-    <fieldset>
-   <legend>Informações pessoais</legend>
-       <p> Forneça suas informações pessoais. Elas não farão parte do seu perfil público.</p>
-       <label for="email">Email:</label>
-       <input type="email" id="email" placeholder="email@email.com">
-       <label for="phone">Telefone:*</label>
-       <input type="tel" requirde name="phone" id="phone" placeholder="+55110000-0000">
-    
-       <button type="submit" title="Enviar">Enviar</button>
-    </fieldset>
-       <a href="#">Desativar minha conta temporariamente</a>
-    </fieldset>
+    <form action="/minhaconta?_method=put"  method="POST">
+        <fieldset>
+            <legend>Perfil</legend>
+         <div class="flex-container flex-container--row items-centered">
+            <a href="#"><img class="icon" src="images/icons/bulldog.png" class="img-miniature"></a>
+            <a href="#">Alterar Avatar </a>
+        </div>
+        <div class="flex-container flex-container--row items-centered">
+            <label for="nome">Nome de Usuário:</label>
+            <input type="text" required name="name" id="nome" placeholder="Nome">
+        </div>
+        <div class="flex-container flex-container--row items-centered">
+            <p>Biografia</p>
+            <textarea name="message" id="msg" cols="20" rows="3"></textarea>
+        </div>
+        </fieldset>
+        <fieldset><legend>Segurança</legend>
+            <label for="senha">Alterar senha:</label>
+             <input type="password" name= "pass" id="senha" minlength="6" maxlength="8">
+             <small>No mínimo 6 e no máximo 8 caracteres</small>
+        
+            <label for="senha">Confirmar nova senha:</label>
+             <input type="password" name="pass" id="senha" minlength="6" maxlength="8">
+            <small>No mínimo 6 e no máximo 8 caracteres</small>
+        </fieldset>
+        <fieldset>
+           <legend>Informações pessoais</legend>
+           <p> Forneça suas informações pessoais. Elas não farão parte do seu perfil público.</p>
+           <label for="email">Email:</label>
+           <input type="email" id="email" placeholder="email@email.com">
+           <label for="phone">Telefone:*</label>
+           <input type="tel" requirde name="phone" id="phone" placeholder="+55110000-0000">
+        
+           <button type="submit" title="Enviar">Enviar</button>
+        </fieldset>
+           <a href="#">Desativar minha conta temporariamente</a>
+        </fieldset>
+    </form>
 </main>
 
 <%- include('partials/footer.ejs') %>
